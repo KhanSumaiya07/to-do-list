@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: rgba(226, 226, 226, 0.128);
+    /* color: #fff; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#profile{
+    height: 10vh;
+    background-color:black;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding: 0 30px;
+    gap: 20px;
+}
+#profile .image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background:#fff;
+}
+h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+#to-do-wrapper{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    padding: 20px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Add-task{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    border-radius: 10px;
+    padding:15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#inputBox{
+    border: none;
+    outline: none;
+    position: relative;
+    border: none;
+    font-size: 1.2rem;
+}
+button{
+    font-size: 1.2rem;
+    color: #fff;
+    padding:5px 7px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 50%;
+    background:royalblue;
+}
+
+#tasklist li{
+    position: relative;
+    margin: 20px 0;
+    list-style: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+span{
+    padding: 8px 10px;
+    background-color: red;
+    position: absolute;
+    right: 10px;
+    border-radius: 50%;
+    color: #fff;
+}
